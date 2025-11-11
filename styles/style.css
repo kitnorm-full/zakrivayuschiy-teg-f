@@ -36,7 +36,7 @@
 }
 
 .header {
-  display: grid; 
+  display: grid;
   justify-items: center;
   align-items: center;
   gap: 20px;
@@ -194,7 +194,7 @@
   line-height: 0.9;
   background-color: var(--background-color, #ffffff);
   transition: box-shadow 0.3s ease;
-  cursor: pointer;  
+  cursor: pointer;
 }
 
 .button:focus-visible {
@@ -223,14 +223,14 @@
   block-size: 38px;
 }
 
-.button__text { 
-  color: #fff;         
+.button__text {
+  color: #fff;
   transition: color 0.5s ease-in-out;
   mix-blend-mode: difference;
 }
 
-.button__icon-diskette { 
-  fill: #fff;         
+.button__icon-diskette {
+  fill: #fff;
   transition: color 0.5s ease-in-out;
   mix-blend-mode: difference;
   inline-size: 21px;
@@ -248,8 +248,7 @@
   will-change: transform;
 }
 
-.button:hover::before
- {
+.button:hover::before {
   transform: translateX(0);
 }
 
@@ -258,7 +257,7 @@
 }
 
 .save-memory-button {
-  gap: 8px; 
+  gap: 8px;
   align-self: center;
   padding-inline: 20px;
   block-size: 55px;
