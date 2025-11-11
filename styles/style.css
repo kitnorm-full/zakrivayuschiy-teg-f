@@ -237,7 +237,6 @@
   block-size: 21px;
 }
 
-
 .button::before {
   content: "";
   position: absolute;
