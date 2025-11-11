@@ -1,1 +1,1 @@
-https://kitnorm-full.github.io/zakrivayuschiy-teg-f/
+https://github.com/kitnorm-full/zakrivayuschiy-teg-f.git
