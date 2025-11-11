@@ -27,14 +27,6 @@
   inline-size: var(--container-width, clamp(375px, 49vw, 700px));
 }
 
-.content {
-  display: flex;
-  flex-direction: column;
-  gap: 50px;
-  margin-block-start: 98px;
-  padding-block-end: 100px;
-}
-
 .header {
   display: grid;
   justify-items: center;
@@ -61,6 +53,14 @@
   line-height: 1;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin-block-start: 98px;
+  padding-block-end: 100px;
 }
 
 .card {
