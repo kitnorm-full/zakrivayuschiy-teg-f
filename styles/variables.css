@@ -27,6 +27,7 @@
 --font-size-header-title: clamp(14px, 3vw, 23px);
 --border-color: #000000;
 --accent-color: #000000;
+--background-transparent: transparent;
 --contour-color: #000000;
 --animation-fill-color: red;
 }

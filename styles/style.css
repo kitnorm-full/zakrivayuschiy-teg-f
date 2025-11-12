@@ -40,7 +40,7 @@
 
 .header__logo {
   outline: none;
-  font-family: var(--font-accent, 'Courier New'), monospace;
+  font-family: var(--font-accent, Impact), fantasy;
   font-size: var(--font-size-logo, clamp(49px, 6vw, 65px));
   line-height: 1;
   text-decoration: none;
@@ -48,7 +48,7 @@
 }
 
 .header__title {
-  font-family: var(--font-accent, 'Courier New'), monospace;
+  font-family: var(--font-accent, Impact), fantasy;
   font-size: var(--font-size-header-title, clamp(14px, 3vw, 23px));
   line-height: 1;
   text-decoration: none;
@@ -89,40 +89,35 @@
   object-position: left;
 }
 
-.card__img--faded {
-  object-position: center;
-  filter: saturate(0.3) opacity(0.9);
+.card__img--filter-saturate {
+  filter: saturate(0.5);
 }
-.card__img--inspire {
-  filter: brightness(1.08) contrast(1.1) saturate(1.25) sepia(0.15) hue-rotate(-10deg) blur(0.2px);
-}
-
-.card__img--sunsetcalm {
-  filter: brightness(1.06) contrast(1.18) saturate(1.22) sepia(0.14) hue-rotate(-8deg) contrast(1);
+.card__img--filter-brightness {
+  filter: brightness(1.15);
 }
 
-.card__img--nightburnout {
-  object-position: center;
+.card__img--filter-grayscale {
+  filter: grayscale(0.5);
+}
+
+.card__img--filter-mix {
   filter: brightness(0.85) contrast(1.45) saturate(1.6) hue-rotate(205deg) sepia(0.25) invert(0.05) blur(0.6px);
 }
 
-.card__img--maze {
-  object-position: center;
-  filter: contrast(1.18) saturate(1.1) brightness(1.02) hue-rotate(180deg) sepia(0.03);
+.card__img--filter-invert {
+  filter: invert(1);
 }
 
-.card__img--warm {
-  filter: brightness(1.05) contrast(1.08) saturate(1.15) sepia(0.08) hue-rotate(-10deg);
+.card__img--filter-sepia {
+  filter: sepia(0.3);
 }
 
-.card__img--cool {
-  object-position: left;
-  filter: contrast(1.06) saturate(0.95) brightness(0.96) hue-rotate(200deg) sepia(0.03);
+.card__img--filter-hue-rotate {
+  filter: hue-rotate(200deg);
 }
 
-.card__img--matte {
-  object-position: center;
-  filter: saturate(4);
+.card__img--filter-contrast {
+  filter: contrast(1.5);
 }
 
 .card__watermark {
@@ -130,7 +125,7 @@
   z-index: 1;
   opacity: 0.5;
   color: #000000;
-  font-family:var(--font-accent, 'Courier New'), monospace;
+  font-family: var(--font-accent, Impact), fantasy;
   font-weight: 400;
   font-size: 14px;
   line-height: 1;
@@ -188,7 +183,7 @@
   padding: 0;
   outline: none;
   overflow: hidden;
-  font-family: var(--font-accent, 'Courier New'), monospace;
+  font-family: var(--font-accent, Impact), fantasy;
   font-weight: 400;
   font-size: 14px;
   line-height: 0.9;
@@ -225,13 +220,11 @@
 
 .button__text {
   color: #fff;
-  transition: color 0.5s ease-in-out;
   mix-blend-mode: difference;
 }
 
 .button__icon-diskette {
   fill: #fff;
-  transition: color 0.5s ease-in-out;
   mix-blend-mode: difference;
   inline-size: 21px;
   block-size: 21px;
@@ -287,7 +280,7 @@
 
 .modal__text {
   grid-column: 2 / 3;
-  font-family: var(--font-accent, 'Courier New'), monospace;
+  font-family: var(--font-accent, Impact), fantasy;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.5;
@@ -318,10 +311,16 @@
 }
 
 .sparks {
+  fill: var(--animation-fill-color, red);
   opacity: 0;
 }
 
+.main-body, .core {
+  fill: var(--background-transparent, transparent);
+}
+
 .contour {
+  fill: var(--contour-color, #000000);
   transition: fill 0.1s linear;
 }
 

@@ -13,7 +13,6 @@
   <link rel="stylesheet" href="./styles/globals.css" />
   <link rel="stylesheet" href="./styles/style.css" />
   <link rel="stylesheet" href="./styles/animations.css" />
-  <link rel="stylesheet" href="./styles/reduced-motion.css" media="(prefers-reduced-motion: reduce)" />
 </head>
 
 <body class="page">
@@ -28,7 +27,7 @@
       </h2>
       <div class="card__image-wrapper">
         <span class="card__watermark">&lt;Inspiration&gt;</span>
-        <img class="card__img card__img--inspire" src="./images/image_001.png" loading="lazy"
+        <img class="card__img card__img--filter-brightness" src="./images/image_001.png" loading="lazy"
           alt="Фритрек и нулевой спринт: Подготовка к работе" />
       </div>
       <div class="card__body">
@@ -48,20 +47,20 @@
         </div>
 
         <div class="card__buttons">
-          <button class="card__icon-button" type="button" aria-hidden="true">
+          <button class="card__icon-button" type="button" aria-label="Поставить лайк">
             <svg xmlns="http://www.w3.org/2000/svg" class="like-icon" width="39" height="36" fill="none"
               viewBox="0 0 39 36">
               <g class="heart">
-                <path class="contour" fill="var(--contour-color, #000000)"
+                <path class="contour"
                   d="M12 6H9v3h3V6Zm3 0h-3v3h3V6ZM9 9H6v3h3V9Zm0 3H6v3h3v-3Zm0 3H6v3h3v-3Zm9-9h-3v3h3V6Zm-6 12H9v3h3v-3Zm3 3h-3v3h3v-3Zm3 3h-3v3h3v-3Zm9-18h3v3h-3V6Zm-3 0h3v3h-3V6Zm6 3h3v3h-3V9Zm0 3h3v3h-3v-3Zm0 3h3v3h-3v-3Zm-9-9h3v3h-3V6Zm6 12h3v3h-3v-3Zm-3 3h3v3h-3v-3Zm-3 3h3v3h-3v-3Zm0 3h-3v3h3v-3Zm0-18h-3v3h3V9Z" />
 
-                <path class="main-body" fill="transparent"
+                <path class="main-body"
                   d="M12 9H9v3h3V9Zm3 3h-3v3h3v-3Zm3-3h-3v3h3V9Zm-6 6H9v3h3v-3Zm3 0h-3v3h3v-3Zm0 3h-3v3h3v-3Zm3-6h-3v3h3v-3Zm0 9h-3v3h3v-3Zm0-3h-3v3h3v-3Zm9-9h3v3h-3V9Zm-3 0h3v3h-3V9Zm3 3h3v3h-3v-3Zm-3 0h3v3h-3v-3Zm-3-3h3v3h-3V9Zm6 6h3v3h-3v-3Zm-3 0h3v3h-3v-3Zm0 3h3v3h-3v-3Zm-3-6h3v3h-3v-3Zm0 9h3v3h-3v-3Zm0-3h3v3h-3v-3Zm0 3h-3v3h3v-3Zm0 3h-3v3h3v-3Z" />
 
-                <path class="core" fill="transparent"
+                <path class="core"
                   d="M18 15h-3v3h3v-3Zm3 0h3v3h-3v-3Zm0 0h-3v3h3v-3Zm0-3h-3v3h3v-3Zm0 6h-3v3h3v-3Z" />
               </g>
-              <path class="sparks" fill="var(--animation-fill-color, red)"
+              <path class="sparks"
                 d="M36 13h3v3h-3v-3Zm-9 14h3v3h-3v-3Zm-9 6h3v3h-3v-3Zm-9-6h3v3H9v-3ZM24 0h3v3h-3V0Zm9 3h3v3h-3V3ZM3 3h3v3H3V3Zm9-3h3v3h-3V0ZM0 13h3v3H0v-3Z" />
             </svg>
           </button>
@@ -75,7 +74,7 @@
       <h2 class="card__title">1 спринт: Я — чистый лист</h2>
       <div class="card__image-wrapper">
         <span class="card__watermark">&lt;Beginning&gt;</span>
-        <img class="card__img card__img--faded" src="./images/image_002.jpg" loading="lazy"
+        <img class="card__img card__img--filter-saturate" src="./images/image_002.jpg" loading="lazy"
           alt="1 спринт: Я — чистый лист" />
       </div>
       <div class="card__body">
@@ -97,7 +96,7 @@
         </div>
 
         <div class="card__buttons">
-          <button class="card__icon-button" type="button" aria-hidden="true">
+          <button class="card__icon-button" type="button" aria-label="Поставить лайк">
             <svg xmlns="http://www.w3.org/2000/svg" class="like-icon" width="39" height="36" fill="none"
               viewBox="0 0 39 36">
               <g class="heart">
@@ -124,7 +123,7 @@
       <h2 class="card__title">1 спринт: А если не получится?</h2>
       <div class="card__image-wrapper">
         <span class="card__watermark">&lt;Doubt&gt;</span>
-        <img class="card__img card__img--matte" src="./images/image_003.jpg" loading="lazy"
+        <img class="card__img card__img--filter-contrast" src="./images/image_003.jpg" loading="lazy"
           alt="1 спринт: А если не получится?" />
       </div>
       <div class="card__body">
@@ -144,7 +143,7 @@
         </div>
 
         <div class="card__buttons">
-          <button class="card__icon-button" type="button" aria-hidden="true">
+          <button class="card__icon-button" type="button" aria-label="Поставить лайк">
             <svg xmlns="http://www.w3.org/2000/svg" class="like-icon" width="39" height="36" fill="none"
               viewBox="0 0 39 36">
               <g class="heart">
@@ -171,7 +170,7 @@
       <h2 class="card__title">2 спринт: Погоня за идеалом</h2>
       <div class="card__image-wrapper">
         <span class="card__watermark">&lt;Aspiration&gt;</span>
-        <img class="card__img card__img--left card__img--cool" src="./images/image_004.jpg" loading="lazy"
+        <img class="card__img card__img--left card__img--filter-hue-rotate" src="./images/image_004.jpg" loading="lazy"
           alt="2 спринт: Погоня за идеалом" />
       </div>
       <div class="card__body">
@@ -194,7 +193,7 @@
         </div>
 
         <div class="card__buttons">
-          <button class="card__icon-button" type="button" aria-hidden="true">
+          <button class="card__icon-button" type="button" aria-label="Поставить лайк">
             <svg xmlns="http://www.w3.org/2000/svg" class="like-icon" width="39" height="36" fill="none"
               viewBox="0 0 39 36">
               <g class="heart">
@@ -221,7 +220,7 @@
       <h2 class="card__title">2 спринт: О тех, кто рядом</h2>
       <div class="card__image-wrapper">
         <span class="card__watermark">&lt;Support&gt;</span>
-        <img class="card__img card__img--right card__img--warm" src="./images/image_005.jpg" loading="lazy"
+        <img class="card__img card__img--right card__img--filter-sepia" src="./images/image_005.jpg" loading="lazy"
           alt="2 спринт: О тех, кто рядом" />
       </div>
       <div class="card__body">
@@ -245,7 +244,7 @@
         </div>
 
         <div class="card__buttons">
-          <button class="card__icon-button" type="button" aria-hidden="true">
+          <button class="card__icon-button" type="button" aria-label="Поставить лайк">
             <svg xmlns="http://www.w3.org/2000/svg" class="like-icon" width="39" height="36" fill="none"
               viewBox="0 0 39 36">
               <g class="heart">
@@ -272,7 +271,7 @@
       <h2 class="card__title">3 спринт: Обходные стратегии</h2>
       <div class="card__image-wrapper">
         <span class="card__watermark">&lt;Adaptation&gt;</span>
-        <img class="card__img card__img--maze" src="./images/image_006.jpg" loading="lazy"
+        <img class="card__img card__img--filter-invert" src="./images/image_006.jpg" loading="lazy"
           alt="3 спринт: Обходные стратегии" />
       </div>
       <div class="card__body">
@@ -292,7 +291,7 @@
         </div>
 
         <div class="card__buttons">
-          <button class="card__icon-button" type="button" aria-hidden="true">
+          <button class="card__icon-button" type="button" aria-label="Поставить лайк">
             <svg xmlns="http://www.w3.org/2000/svg" class="like-icon" width="39" height="36" fill="none"
               viewBox="0 0 39 36">
               <g class="heart">
@@ -319,7 +318,7 @@
       <h2 class="card__title">3 спринт: Когда опускаются руки</h2>
       <div class="card__image-wrapper">
         <span class="card__watermark">&lt;Endurance&gt;</span>
-        <img class="card__img card__img--nightburnout" src="./images/image_007.jpg" loading="lazy"
+        <img class="card__img card__img--filter-mix" src="./images/image_007.jpg" loading="lazy"
           alt="3 спринт: Когда опускаются руки" />
       </div>
       <div class="card__body">
@@ -342,7 +341,7 @@
         </div>
 
         <div class="card__buttons">
-          <button class="card__icon-button" type="button" aria-hidden="true">
+          <button class="card__icon-button" type="button" aria-label="Поставить лайк">
             <svg xmlns="http://www.w3.org/2000/svg" class="like-icon" width="39" height="36" fill="none"
               viewBox="0 0 39 36">
               <g class="heart">
@@ -369,7 +368,7 @@
       <h2 class="card__title">«Сейчас я здесь»</h2>
       <div class="card__image-wrapper">
         <span class="card__watermark">&lt;Calm&gt;</span>
-        <img class="card__img card__img--right card__img--sunsetcalm" src="./images/image_008.jpg" loading="lazy"
+        <img class="card__img card__img--right card__img--filter-grayscale" src="./images/image_008.jpg" loading="lazy"
           alt="Сейчас я здесь" />
       </div>
       <div class="card__body">
@@ -393,7 +392,7 @@
         </div>
 
         <div class="card__buttons">
-          <button class="card__icon-button" type="button" aria-hidden="true">
+          <button class="card__icon-button" type="button" aria-label="Поставить лайк">
             <svg xmlns="http://www.w3.org/2000/svg" class="like-icon" width="39" height="36" fill="none"
               viewBox="0 0 39 36">
               <g class="heart">
